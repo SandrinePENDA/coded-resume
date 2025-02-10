@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('./separators.css');
+
+/*** GENERAL SETTINGS ***/
+* {
+    /* Reset */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    /* Colors */
+    --titre-rubrik: #5271FF;
+    --bg-rubrik: #A7B8FF;
+    --bright: #FFFFFF;
+    --night: #000000;
+}
+
+a {
+    text-decoration: none;
+    color: var(--titre-rubrik);
+}
+
+.cv-headings {
+    color: var(--titre-rubrik);
+    font-family: "Poppins", sans-serif;
+}
+
+p, header, li, .title-exp {
+    color: var(--night);
+    font-family: "Roboto Condensed", serif;
+    font-size: 18px;
+}
+/*** END GENERAL SETTINGS ***/
+
+.cv-title {
+    color: var(--night);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+
+.intro {
+    font-size: 20px;
+}
+
+span.skills::before{
+    content:url('../img/coche-24px.png');
+    width: auto;
+    height: auto;
+    display: inline;
+}
+
+.container .accordion {
+    margin: 0 13%;
+}
+
+img.interests {
+    width: 200px;
+    height: 200px;
+}
+
+.footer-legals {
+    color: var(--night);
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+    line-height: 20px;
+}
+
+/* Managing mobile screens */
+@media screen and (max-width: 512px ){
+    .container .accordion {
+        margin: 0;
+    }
+  }
+  
