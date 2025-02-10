@@ -42,11 +42,12 @@ p, header, li, .title-exp {
     font-size: 20px;
 }
 
-span.skills::before{
-    content:url('../img/coche-24px.png');
+strong.skills::before{
+    content:url('../img/sandrine-penda-webmaster-wordpress-cms-html-css-php_coche-24px.png');
     width: auto;
     height: auto;
     display: inline;
+    margin-top: 3px;
 }
 
 .container .accordion {

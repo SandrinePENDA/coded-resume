@@ -5,7 +5,7 @@
     font-weight: bold;
     padding: 5px 20px;
     position: relative;
-    width: 25%;
+    max-width: 25%;
     cursor: pointer;
   }
   .cv-headings:hover {
@@ -18,17 +18,17 @@
     content: "";
     position: absolute;
     top: 50%;
-    width: 110px;
+    width: 370px;
     height: 3px;
     background-color: var(--bg-rubrik); /* Même bleu que le texte */
   }
   
   .cv-headings::before {
-    left: -110px;
+    left: -370px;
   }
   
   .cv-headings::after {
-    right: -110px;
+    right: -370px;
   }
 
   @media screen and (max-width: 512px ){
