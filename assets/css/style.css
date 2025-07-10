@@ -15,6 +15,10 @@
     --night: #000000;
 }
 
+main {
+    overflow: hidden;
+}
+
 a {
     text-decoration: none;
     color: var(--titre-rubrik);
@@ -72,5 +76,18 @@ img.interests {
     .container .accordion {
         margin: 0;
     }
+
+    
+    img.interests {
+        width: 75%;
+        height: 75%;
+    }
+  }
+
+  @media screen and (max-width: 991px ){
+    .cv-headings {
+        max-width: 100%;
+    }
+
   }
   

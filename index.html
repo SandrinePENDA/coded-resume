@@ -9,7 +9,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- My own CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Mon CV web et responsive réalisé en HTML, CSS par Sandrine N. PENDA</title>
+    <title>Mon CV web et responsive réalisé en HTML, CSS et Bootstrap ; par Sandrine N. PENDA</title>
 </head>
 
 <body class="container pt-4">
@@ -71,7 +71,8 @@
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#panelsStayOpen-collapseSkills" aria-expanded="true"
                                 aria-controls="panelsStayOpen-collapseSkills">
-                                <strong class="">Développement web, Infographie, Gestion de projets, Langues</strong>
+                                <strong class="title-exp">Développement web, Infographie, Gestion de projets,
+                                    Langues</strong>
                             </button>
                         </h2>
                         <div id="panelsStayOpen-collapseSkills" class="accordion-collapse collapse">
@@ -94,8 +95,8 @@
                                             MVC</span>
                                         <span class="skills d-flex"><strong class="me-1">&nbsp;CMS : </strong>
                                             WordPress,
-                                            Contentful,
-                                            Kentico,
+                                            Webflow,
+                                            Prestashop,
                                             Proximis</span>
                                     </div>
 
@@ -420,30 +421,33 @@
     </main>
 
     <!-- FOOTER section -->
-    <footer class="container">
-        <span class="inline-block footer-legals">
-            Cette page web a été conçue et réalisée par Sandrine N. PENDA le 05/02/2025, puis revue le 10/02/2025 dans
-            le cadre du test technique
-            pour le
-            recrutement du Webmaster Digital Junior au sein de l'agence bb&b.
-        </span>
-
+    <footer class="container mt-4">
         <!-- crédits Flaticon & Pexels. -->
-        <div class="text-center footer-legals"> <em>Icônes utilisées conçues par <a
-                    href="https://www.flaticon.com/fr/auteurs/vectaicon" title="vectaicon">
-                    vectaicon </a>
-                de <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com</a>
+        <div class="text-left footer-legals mt-2">
+            <em>Icônes utilisées conçues par
+                <a href="https://www.flaticon.com/fr/auteurs/vectaicon" title="vectaicon">VectaIcon
+                </a>de <a href="https://www.flaticon.com/fr/" title="Flaticon">www.flaticon.com</a>
 
                 <span class="inline-block">Les images proviennent de Soumith Soman, Lara Farber et Luca Sammarco à <a
                         href="https://www.pexels.com" title="Pexels">www.pexels.com</a>
-                </span></em>
+                </span>
+            </em>
         </div>
+
+        <span class="inline-block footer-legals">
+            Conçu et créé sous Word à partir d'une feuille blanche, j'ai réalisé une version web de mon CV.
+            C'est un parti pris de n'avoir pas fait une copie conforme.
+        </span>
+
+
     </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <!-- My own JavaScript    -->
+    <script src="./assets/js/customjs.js"></script>
 </body>
 
 </html>
