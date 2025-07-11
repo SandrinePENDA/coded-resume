@@ -18,5 +18,5 @@ Step-5: continue coding and commit changes ... :)
 
 ## Watch the site live here
 
-- [Online](https://sandrinependa.github.io/cv-online-nov2024/) 
+- [Online](https://sandrinependa.github.io/coded-resume/) 
 

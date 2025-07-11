@@ -71,6 +71,10 @@ img.interests {
     line-height: 20px;
 }
 
+.title-exp p.fw-bold em {
+    color: var(--titre-rubrik);
+}
+
 /* Managing mobile screens */
 @media screen and (max-width: 512px ){
     .container .accordion {
